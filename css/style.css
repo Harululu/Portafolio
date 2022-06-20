@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+:root{
+	--bg-negro:#000;
+}
+
+header{
+	background-color:#CACACA;
+	border-bottom: 2px solid #000;
+}
+
+body{
+	background-color:#000;
+	font-family: 'Dosis', sans-serif;
+	color:#fff;
+	text-align: center;
+}
+
+body #hero{
+	background-image:url("../img/fondo_inicio.JPG");
+	background-size: 1902px;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 350px 0;
+	opacity: 90%;
+	border-bottom: 2px solid #000;
+}
+
+#hero h1{
+	font-size: 80px;
+	text-transform: uppercase;
+}
+
+#hero p{
+	font-size: 30px;
+}
+
+.btn-black{
+	font-size: 26px;
+	padding: 12px 36px;
+	background-color: #000;
+	color: #fff;
+	border-radius: 8px;
+}
+
+.btn-black:hover{
+	background-color:#CACACA;
+	color:#000;
+}
+
+#about{
+	text-align: center;
+	background-color:#BBBBBB;
+	color:#000;
+	padding-bottom: 80px;
+}
+
+h2{
+	text-transform: uppercase;
+	font-size: 50px;
+	padding: 80px 0 60px 0;
+}
+
+#about p{
+	font-size: 20px;
+	padding-bottom: 60px;
+}
+
+#about{
+	border-bottom: 15px dotted #000;
+}
+
+#about img{
+	margin-top: 40px;
+}
+
+#about #brush{
+	margin-top: 52px;
+}
+
+#about h4{
+	margin-top: 20px;
+}
+
+#about hr{
+	border: 2px solid;
+	border-radius: 3px;
+}
+
+#servicios{
+	background-color: #BBBBBB;
+	color:#000;
+	padding-bottom: 100px;
+}
+
+#servicios h4{
+	text-align: start;
+	padding-left: 3px;
+}
+
+#servicios img{
+	text-align: start; 
+}
+
+#servicios h2{
+	padding-bottom:80px;
+}
+
+#linea1{
+	padding-bottom: 80px;
+}
+
+#edicion_video,#diseño_personajes{
+	padding-top: 16px;
+}
+
+#guion{
+	padding-top: 8px;
+}
+
+#contacto{
+	background-color: #BBBBBB;
+	color:#000;
+	padding-bottom: 80px;
+}
+
+#contacto .btn-black:hover{
+	background-color: #EDEDED;
+}
+
+#contacto hr{
+	border: 2px solid;
+}
+#linea1 h4,#linea2 h4{
+	display: inline-block;
+}
+
+#fotos,#stylescape2,#animatic{
+	padding-bottom: 30px;
+}
+
+#fotos1{
+	padding-bottom: 26px;
+}
+
+#fotos2,#stylescape,#dibujos{
+	padding-bottom: 80px;
+}
+
+#ilustraciones{
+	padding:80px 0 30px 0;
+}
+
+#portafolio hr{
+	border: 1px solid;
+}
+
+#social{
+	margin: 70px 0 30px 0;
+}
+
+#wa{
+	transition: all 0.4s ease-in-out;
+}
+#wa:hover{
+	transform: scale(1.30);
+	transition: all 0.4s ease-in-out;
+}
+
+#yt{
+	transition: all 0.4s ease-in-out;
+}
+#yt:hover{
+	transform: scale(1.30);
+	transition: all 0.4s ease-in-out;
+}
+
+#ig{
+	transition: all 0.4s ease-in-out;
+}
+
+#ig:hover{
+	transform: scale(1.30);
+	transition: all 0.4s ease-in-out;
+}
+
+#formulario{
+	margin-bottom: 70px;
+}
+.form-control{
+	background-color:#000;
+}
+
+footer{
+	text-align: center;
+	padding: 20px 0;
+}
